@@ -44,4 +44,18 @@ Start the electron-quick-start app:
 ```  
 
 ## Chapter 4: BrowserWindow Basics  
- 
+ For Browser Window options see [electron.atom.
+io/docs/api/browser-window](https://electron.atom.io/docs/api/browser-window/#class-browserwindow)  
+
+__Frameless Windows__  
+A frameless window has no menu bar, title bar or toolbars. To create a frameless window, set the `frame` property to `false` for the option argument of the BrowserWindow constructor.  
+
+__Transparent Windows__  
+To get a transparent window, set the `transparent` property of the options object passed to the BrowserWindow constructor to `true`.
+__NB:__ This does not work on Windows OS unless the window is frameless.
+
+## Chapter 5: Add Custom Menus  
+We have a custom menu, you have to create the entire menu.  
+
+__Defining Keyboard Shortcuts and Menu Item Roles__
+You should always follow the platform convention for keyboard shortcuts and menu naming. Refer to each platform’s user interface guidelines for further information.

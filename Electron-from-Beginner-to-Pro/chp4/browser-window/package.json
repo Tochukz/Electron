@@ -1,0 +1,22 @@
+{
+  "name": "browser-window",
+  "version": "1.0.0",
+  "description": "A sample Electron application to demonstrate BrowserWindow Creation",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/tochukz/electron",
+  "keywords": [
+    "Electron",
+    "BrowserWindow",
+    "sample",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Tochukz",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^8.2.0"
+  }
+}
